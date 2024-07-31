@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* sets the font for the entire page */
+    display: flex; /* enables flexbox layout */
+    justify-content: center; /* centers the container horizontally */
+    align-items: center; /* centers the container vertically */
+    height: 100vh; /* full viewport height */
+    background-color: #f4f4f9; /* light background color for the page */
+    margin: 0; /* Removes default margin */
+}
+
+.container {
+    text-align: center; /* centers the text within the container */
+    border: 1px solid #ddd; /* light grey border */
+    padding: 20px; /* padding inside the container */
+    border-radius: 8px; /* rounded corners for the container */
+    background-color: #fff; /* white background for the container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* subtle shadow effect */
+}
+
+input[type="number"]{
+    padding: 10px; /* padding inside the input field */
+    margin-top: 10px; /* space above the input field */
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 4px; /* slightly rounded corners for the input field */
+    width: 100px; /* fixed width for the input field */
+    text-align: center; /* centers text inside the input field */
+}
+
+button {
+    padding: 10px 20px; /* padding inside button */
+    margin-top: 10px; /* space above the button */
+    border: none; /* removes default border */
+    border-radius: 4px;
+    background-color: #007bff; /* Blue background color for button */
+    color: #fff; /* set text color to white */
+    cursor: pointer; /* cursor changes to pointer on hover */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* darker blue background on hover */
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
